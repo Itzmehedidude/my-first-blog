@@ -8,7 +8,7 @@
     height: 40%;
     float: left;
 }
-img{
+.imgtop{
     height: 300px;
     width: 511px;
     margin-top:100px ;
@@ -28,4 +28,44 @@ button{
 }
 h1{
     font-size: 27px;
+}
+.hh{
+    text-align: center;
+    margin-top: 55px;
+}
+.box{
+        border: 2px solid rgb(171, 165, 165);
+        width: 10%;
+        height: 456px;
+        display: inline-table;
+        
+}
+.all{
+    margin-left:400px;
+    margin-bottom: 50px;
+}
+.dif{
+    width: 370px;
+    height: 200px;
+}
+p{
+    color: rgb(78, 78, 81);
+    font-size: 15px;
+}
+.hh2{
+    text-align: center;
+}
+.ltext{
+    display: inline-block;
+}
+.layer{
+    border: 2px solid black;
+    width: 50%;
+}
+.limg{
+    width: 370px;
+    height: 200px;
+}
+.textl{
+    width: 460px;
 }
