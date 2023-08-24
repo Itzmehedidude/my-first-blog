@@ -56,7 +56,7 @@ p{
     text-align: center;
 }
 section{
-    background-color: rgb(158, 72, 72);
+    background-color: rgb(227, 237, 240);
     overflow: hidden;
     height: 6000px;
     padding-top: 50px;
@@ -65,7 +65,7 @@ section{
     width: 900px;
     background-color: white;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 300px;
     padding: 10px;
 }
 .img{
@@ -74,5 +74,30 @@ section{
 .textl{
     width: 500px;
     position: absolute;
-    left: 450px;
+    left: 700px;
+}
+.leftl{
+    position: absolute;
+}
+.rightl{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 900px;
+    margin-top: 15px;
+    position: absolute;
+    left: 1270px;
+}
+.catagory{
+    margin-left: 20px;
+}
+.plist{
+    margin-left: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+    t
+}
+.plist::before{
+    content: url(images/catimg.png);
+    margin-right: 10px;
 }
