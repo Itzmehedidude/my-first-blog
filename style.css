@@ -55,17 +55,24 @@ p{
 .hh2{
     text-align: center;
 }
-.ltext{
-    display: inline-block;
-}
-.layer{
-    border: 2px solid black;
-    width: 50%;
-}
-.limg{
-    width: 370px;
+section{
+    background-color: rgb(158, 72, 72);
+    overflow: hidden;
+    height: 6000px;
+    padding-top: 50px;
+#lbox{
     height: 200px;
+    width: 900px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.img{
+    position: absolute;
 }
 .textl{
-    width: 460px;
+    width: 500px;
+    position: absolute;
+    left: 450px;
 }
